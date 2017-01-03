@@ -42,10 +42,11 @@ var args = Array.from(arguments)
       args.shift()
       args.shift()
       var klam=args.join()
-      commonCharacters(str2,klam)
+      //commonCharacters(str2,klam)
       break
   }
-     return str2
+      return  commonCharacters(str2,klam)
+    
   }
 };
 
