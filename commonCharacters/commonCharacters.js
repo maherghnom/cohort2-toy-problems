@@ -34,8 +34,11 @@ var args = Array.from(arguments)
     var str2="";
       for (var e=0 ; e<arrs.length;e++){
         for (var r=0;r<arre.length;r++){
-          if (arrs[e]===arre[r]){
-           str2+=arrs[e]
+          if (arrs[e]!==" "){
+            if (arrs[e]===arre[r]){
+              if(!str2.includes(arre[r]))
+                str2+=arrs[e]
+           }
           }
         }
       }
