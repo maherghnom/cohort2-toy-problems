@@ -27,6 +27,7 @@ function getMinOfArray(numArray) {
 }
 
 var maximumProfit  = function(array) {
+<<<<<<< HEAD
   var arr=[];
   var elem1=array[0]
   var last=array[array.length-1]
@@ -44,4 +45,7 @@ var maximumProfit  = function(array) {
     arr.push(array[i])
   }
     return maximumProfit(arr)
+=======
+	//your code is here
+>>>>>>> 22de3ef23269d55c15ab791aec99456e3006e5d7
 }
