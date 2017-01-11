@@ -31,7 +31,7 @@ var length = function(numb){
 
 
 var longestCollatzSeq = function(){
-  var maxnum=  0 ;
+  var maxnu=  0 ;
   for (var i = 1000000 - 1 ; i > 0 ; i-- ){
     if(length(maxnum)<  length(i)){
       maxnum = i;
