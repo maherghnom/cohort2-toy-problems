@@ -38,6 +38,28 @@
  */
 
 var rotateMatrix =function (matrix) {
-	
+  var rotatedmatrix=[];
+  for (var i=0;i<matrix.length;i++){
+    var line =[];
+    for (var j=matrix.length-1;j>=0;j--){
+      
+      let x =matrix[j][i]
+      /// this to make the function work witn col with length larger than the row length ; (m & n)
+        if (x===undefined){
+        break;
+      }
+      line.push(x)
+
+      rotatedmatrix[i]=line;
+    }
+    
+
+  }
+  return rotatedmatrix
+  ///complexity O(n^2)
 }
+
+
+
+
 ///////////////////
