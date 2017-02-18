@@ -21,6 +21,7 @@
 /*
  * Extra credit: Make the method work for arrays that contain objects and/or arrays as elements.
 */
+<<<<<<< HEAD
 /////////// with extra for array///////
 Array.prototype.isSubsetOf = function (arr) {
     var length =this.length;
@@ -71,3 +72,9 @@ Array.prototype.isSubsetOf = function (arr) {
   return false;
 
 }
+=======
+
+Array.prototype.isSubsetOf = function (arr) {
+
+}
+>>>>>>> ec1197ded368e7aad2cc2c29d5059a3905f42645

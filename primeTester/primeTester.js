@@ -4,6 +4,7 @@
  * a prime number, false if it's not.
  */
 var primeTester = function(n) {
+<<<<<<< HEAD
   var arr=[2,3,5,7,11,13,17,19,23,29,31]
 	if (n%arr[0]===0 || n%arr[1]===0 ||n%arr[2]===0 || n%arr[3]===0 ||
 	    n%arr[4]===0 || n%arr[5]===0 ||n%arr[6]===0 || n%arr[7]===0 ||
@@ -13,6 +14,9 @@ var primeTester = function(n) {
 	}else{
 	  	return true;
 	}
+=======
+
+>>>>>>> ec1197ded368e7aad2cc2c29d5059a3905f42645
 }
 
  /* Extra credit: Write a function that generates a list of all prime numbers
@@ -20,6 +24,7 @@ var primeTester = function(n) {
   * check out the Sieve of Eratosthenes on Wikipedia. (And if you're feeling
   * saucy, check out the Sieve of Atkin.)
   */
+<<<<<<< HEAD
 var giveMePrimeN = function(n1,n2){
     var result=[];
     for(var i=n1;i<n2;i++){
@@ -29,4 +34,7 @@ var giveMePrimeN = function(n1,n2){
     }
     return result ;
   }  
+=======
+
+>>>>>>> ec1197ded368e7aad2cc2c29d5059a3905f42645
   
