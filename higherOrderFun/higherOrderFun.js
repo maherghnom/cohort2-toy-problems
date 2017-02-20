@@ -58,7 +58,8 @@ if( typeof a !== 'number' || typeof b !== 'number' ){
   
       
     }, 1000);
-};
+}
+}
 
 /*
 Example use:
